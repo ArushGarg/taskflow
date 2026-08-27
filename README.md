@@ -7,10 +7,9 @@ sorted by due date. Built with clean architecture and `flutter_bloc`.
 ## Screenshots
 
 ### Authentication
-
 | Sign up | Log in |
 |---|---|
-| ![Sign up screen](screenshots/01_signup.jpg) | ![Login screen](screenshots/02_login.jpg) |
+| ![Sign up screen](https://github.com/user-attachments/assets/604838b5-3e42-4739-aba6-86f52f5e4963) | ![Login screen](https://github.com/user-attachments/assets/c58bde48-ca65-45ac-814e-cc25a844880e) |
 
 New users create an account with email + password on the **Sign up**
 screen; returning users land on **Log in**. Both run through Firebase Auth
@@ -20,20 +19,18 @@ Firebase rejects the credentials (e.g. wrong password, email already in
 use).
 
 ### Empty state
-
 | No tasks yet |
 |---|
-| ![Empty task list](screenshots/03_empty_state.jpg) |
+| ![Empty task list](https://github.com/user-attachments/assets/e59c7628-4fbc-4494-b746-36642be860a6) |
 
 A first-time user (or an active filter with no matches) sees a friendly
 empty state instead of a blank screen, with a prompt to tap **+** to add a
 task.
 
 ### Creating a task
-
 | Add task form | Due date picker | Filled out |
 |---|---|---|
-| ![Add task form](screenshots/04_add_task_form.jpg) | ![Date picker](screenshots/05_date_picker.jpg) | ![Filled add task form](screenshots/06_add_task_filled.jpg) |
+| ![Add task form](https://github.com/user-attachments/assets/ef832169-7148-40e8-a7a5-943d3c4f9496) | ![Date picker](https://github.com/user-attachments/assets/2b684491-316d-41eb-bd77-96a65cb20d36) | ![Filled add task form](https://github.com/user-attachments/assets/75d72101-78c9-4db0-a95d-77943c35db3d) |
 
 The **New task** screen collects title, description, due date (via the
 native Material date picker), and priority (Low / Medium / High, selected
@@ -41,10 +38,9 @@ as a segmented control). Title is required; everything else is optional
 except priority, which defaults to Medium.
 
 ### Task list, completion, and filtering
-
 | Task list | Marked complete | Completed filter |
 |---|---|---|
-| ![Task list with a task](screenshots/07_task_list.jpg) | ![Task marked complete](screenshots/08_task_completed.jpg) | ![Completed filter, empty result](screenshots/09_completed_filter_empty.jpg) |
+| ![Task list with a task](https://github.com/user-attachments/assets/a4b7874b-3b94-45da-aa01-b916b453f512) | ![Task marked complete](https://github.com/user-attachments/assets/a7955d0c-bb2a-4f22-8070-5f02baca3c83) | ![Completed filter, empty result](https://github.com/user-attachments/assets/f8265a42-cc9f-4239-86f2-460ffb99440d) |
 
 Tasks are grouped by due date (Overdue / Today / Tomorrow / This week /
 Later) and show their priority as a colored pill. Tapping the circle
@@ -56,10 +52,9 @@ existing task is still incomplete, so the list correctly shows the empty
 state rather than a stale result.
 
 ### Account menu
-
 | Sign out |
 |---|
-| ![Account menu with log out](screenshots/10_account_menu.jpg) |
+| ![Account menu with log out](https://github.com/user-attachments/assets/544a755d-29ff-4d53-98cc-fd468acfca70) |
 
 The overflow menu in the top-right shows the signed-in email and a **Log
 out** action, which routes back to the Login screen via `AuthGate`
