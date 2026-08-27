@@ -1,0 +1,37 @@
+name: taskflow
+description: A task management app for gig workers — Flutter Developer Intern assignment (Whatbytes).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+
+  # State management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
+  # DI
+  get_it: ^7.7.0
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  formz: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
